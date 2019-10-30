@@ -53,29 +53,27 @@ console.log(val)
 // console.log(lookingForMe(people))
 
 function hire(arr){
+    let count =0;
+    let temp=[]
     for(i=0; i<arr.length; i++){
-        if(arr[i].skils.includes('JavaScript'&&'HTML'&&'CSS')){
-            // return `${arr[i].name} is hired!`
-        }return `${arr[i].name} is hired!`
+        for(j=0; j<newArr.length; j++){
+            if(arr[i]==newArr[j]){
+                count = count +1;
+                temp.push(newArr[j])
+            }
+        }
+    
+    } 
+    if (count < 3) {
+        console.log('This is not');
     }
+    
+    return temp 
 }
 
+let newArr=['Java','Ruby','PHP', 'JavaScript', 'Phyton']
 
-let employee1 = {
-    name : 'Andri',
-    skils : ['JavaScript','CSS', 'JavaScript'],
-}
 
-let employee2 = {
-    name : 'Andre',
-    skils : ['CSS','HTML', 'JavaScript', 'Phyton']
-}
-
-let employee3 = {
-    name : 'Lotta',
-    skils : ['JavaScript','HTML'],
-}
-
-let search = [employee1, employee2, employee3]
+let search = ['CSS','HTML', 'JavaScript', 'Phyton','Ruby','Java','PHP']
 
 console.log(hire(search))
