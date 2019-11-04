@@ -77,3 +77,26 @@ let newArr=['Java','Ruby','PHP', 'JavaScript', 'Phyton']
 let search = ['CSS','HTML', 'JavaScript', 'Phyton','Ruby','Java','PHP']
 
 console.log(hire(search))
+
+function findRoute(rou,te){
+    let temp=[]
+        if(rou.stop<te.stop){
+            
+            temp.push(rou)
+        }else{temp.push(te)}
+        return temp
+}
+
+let route1 = {
+    km : 11,
+    time : 30,
+    stop : 2,
+}
+
+let route2 = {
+    km : 13,
+    time : 25,
+    stop : 3,
+}
+
+console.log(findRoute(route1,route2))
