@@ -59,3 +59,15 @@ let thisDay = new Date();
 let eventDay = new Date ('04-30-2020 01:45:00')
 
 console.log(booking(thisDay,eventDay))
+
+
+function checkHour(){
+    let date = new Date();
+    let hour = 19
+    console.log(hour)
+    return hour < 11 ? `Good Morning` :
+    hour < 18 ? `Good Afternoon` :
+    hour < 5 ? `Good Evening` : 'there is no time shown';
+}
+
+checkHour()

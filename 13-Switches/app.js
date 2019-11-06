@@ -39,7 +39,7 @@ function giveColor(){
         break;
       
         case 'Friday':
-        console.log('White')
+        console.log('Pure White')
         break;
       
         case 'Saturday':
@@ -47,7 +47,7 @@ function giveColor(){
         break;
       
         default:
-        console.log('rainbow')
+        console.log('Rainbow')
       }
 }
 
