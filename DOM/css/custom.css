@@ -1,0 +1,18 @@
+.height200{
+    max-height: 200px;
+    overflow: scroll;
+}
+
+.closex{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    float: right;
+}
+
+.closex{
+    content: "X";
+    font-size: 15px;
+    color:  #FA6900;;
+    text-align: center;
+}
