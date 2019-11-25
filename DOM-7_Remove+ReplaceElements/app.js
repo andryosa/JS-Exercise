@@ -31,3 +31,21 @@ let firstLi = document.querySelector('.collection-item')
 
 firstLi.replaceChild(newText,listText)
 
+
+
+// Remove
+
+// let lis = document.querySelectorAll('li');
+// const list = document.querySelector('ul')
+
+// Remove Child element
+// const li2 = list.children[0]
+// list.removeChild(li2)
+
+let lis = document.querySelectorAll('li');
+
+lis.forEach(function(item){
+    if(item.innerText=='done'){
+        item.remove()
+    }
+})
