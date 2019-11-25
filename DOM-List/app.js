@@ -38,3 +38,23 @@ const liEven = document.querySelectorAll('li:nth-child(even)')
 liEven.forEach(function(li,index){
     li.style.background = 'lightgrey'
 })
+
+// const even = document.getElementById('listt')
+
+
+// for(i=0; i<items.length; i++){
+//     items[i].textContent = `${i*2}`;}
+
+// const li = document.createElement('li');
+// li.className = 'collection-item';
+// document.querySelector('ul.collection').appendChild(li)
+
+function printEven(num){
+    for(let i=0; i<num.length; i++){
+        if(i%2 ===  0){
+            num[i].textContent= `${num[i]}`
+        }
+    }
+}
+
+printEven(items)

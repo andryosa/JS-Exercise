@@ -31,3 +31,47 @@ for(i=0; i<list2.length; i++){
 }
 
 colorrr(list2)
+
+
+
+// List children
+// let list = ul
+
+
+list.children[0].style.color = 'blue';
+
+// first child
+val = list.firstChild;
+val = list.firstElementChild;
+
+// last child
+val = list.lastChild;
+val = list.lastElementChild;
+
+// counting how many child
+val = list.children.length;
+val = list.childElementCount;
+
+// Get parent node 
+val = listItem.parentNode;
+val = listItem.parentElement;
+
+console.log(val)
+
+console.log(listItem.parentNode)
+
+function colors(list){
+    for(i=0; i<list.children.length; i++){
+    if (list.children[i].style.color == 'red'){
+        list.children[i].innerText = 'Done';
+    }
+
+}
+}
+
+colors(list)
+
+
+
+
+listItem.previousSibling
