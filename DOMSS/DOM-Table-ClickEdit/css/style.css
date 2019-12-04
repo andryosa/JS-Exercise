@@ -1,0 +1,60 @@
+.td1,.td2,.td3,.td4,.td5,.td6,.td7,.td8,.td9{
+    width: 33vw;
+    height: 200px;
+    background-color: gray;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.tblDiv{
+    text-align: center;
+    width: 65%;
+}
+
+span{
+    font-style: italic;
+}
+p{
+    font-size: 1.5rem;
+}
+.td1{
+    background-color: grey;
+}
+
+.td2{
+    background-color: blue;
+    color: white;
+}
+
+.td3{
+    background-color: rgb(255, 255, 74);
+}
+    
+.td4{
+    background-color: gold;
+}
+
+.td5{
+    background-color: rgb(69, 14, 83);
+    color: white;
+}
+    
+.td6{
+    background-color: rgb(25, 85, 153);
+    color: white;
+}
+    
+.td7{
+    background-color: rgb(143, 91, 38);
+    color: white;
+}
+        
+.td8{
+    background-color: rgb(246, 90, 34);
+    color: white;
+}
+
+.td9{
+    background-color: rgb(10, 121, 10);
+    color: white;
+}
