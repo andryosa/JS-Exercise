@@ -17,6 +17,14 @@ if(target.className == '.edit-cancel'){
     makeTdEditable(target)
 }
 
+
+function finishTdEdit(td,isOk){
+    console.log(td)
+    if
+    (isOk){
+        td.innerHTML=textArea.value
+    }
+}
 // Event Handler : currently the real event target is the td
 function makeTdEditable(event){
     let td = event.target
