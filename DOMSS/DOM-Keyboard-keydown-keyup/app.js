@@ -22,3 +22,12 @@ input.onkeydown = edit
 function edit(e){
     textarea.value= `${e.type} key=${e.key} code= ${e.code}`
 }
+
+
+// kinput.onkeydown = handle
+// function handle(e){
+//     console.log(e.type)
+//     console.log(e.key)
+//     console.log(e.code)
+//     console.log(e.repeat)
+// }
