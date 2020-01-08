@@ -56,7 +56,7 @@
 
 document.querySelector('form').addEventListener('submit', function(e){
     const task = document.getElementById('task').value;
-    
+    // console.log(task)
     let tasks;
 
     if(localStorage.getItem('tasks') === null) {
