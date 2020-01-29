@@ -1,0 +1,19 @@
+[{
+    "id" : 1,
+    "name" : "Super Mario",
+    "company" : "Mashroom Comp",
+    "phone" : "444-555-6666"
+},
+{
+    "id" : 2,
+    "name" : "Super Mario2",
+    "company" : "Mashroom Comp",
+    "phone" : "444-555-6666"
+},
+{
+    "id" : 3,
+    "name" : "Super Mario3",
+    "company" : "Mashroom Comp",
+    "phone" : "444-555-6666"
+}
+]
